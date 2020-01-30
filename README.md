@@ -1,23 +1,25 @@
-# ContinousControl
+# Collaboration and Competition - Tennis
 ## My solution for Udacity course "Deep Reinforced Learning"
 
-This is a solution for Project 2 in Udacity course "Deep Reinforced Learning". It is using materials from course, particulary it is based on DDPG solution from course:
+This is a solution for Project 3 in Udacity course "Deep Reinforced Learning". It is using materials from course, particulary it is based on DDPG solution from course:
 https://github.com/udacity/deep-reinforcement-learning/tree/master/ddpg-pendulum
+
+As a core, i have used my working solution for [Project 2 - Continous Control] (https://github.com/gkowalik/ContinousControl) and there will be many similarities.
 
 ### The Environment
 
-This project is for  [Reacher](https://github.com/Unity-Technologies/ml-agents/blob/master/docs/Learning-Environment-Examples.md#reacher) environment.
+In this environment, two agents control rackets to bounce a ball over a net. If an agent hits the ball over the net, it receives a reward of +0.1. If an agent lets a ball hit the ground or hits the ball out of bounds, it receives a reward of -0.01. Thus, the goal of each agent is to keep the ball in play.
 
-In this environment, a double-jointed arm can move to target locations. A reward of +0.1 is provided for each step that the agent's hand is in the goal location. Thus, the goal of your agent is to maintain its position at the target location for as many time steps as possible.
+The observation space consists of 8 variables corresponding to the position and velocity of the ball and racket. Each agent receives its own, local observation. Two continuous actions are available, corresponding to movement toward (or away from) the net, and jumping.
 
-The observation space consists of 33 variables corresponding to position, rotation, velocity, and angular velocities of the arm. Each action is a vector with four numbers, corresponding to torque applicable to two joints. Every entry in the action vector should be a number between -1 and 1.
+The task is episodic, and in order to solve the environment, your agents must get an average score of +0.5 (over 100 consecutive episodes, after taking the maximum over both agents). Specifically,
+
+- After each episode, we add up the rewards that each agent received (without discounting), to get a score for each agent. This yields 2 (potentially different) scores. We then take the maximum of these 2 scores.
+- This yields a single score for each episode.
 
 ### Solving the Environment
 
-I have selected option 1 (from two avaliable) to solve:
-
-Option 1: Solve the First Version
-The task is episodic, and in order to solve the environment, your agent must get an average score of +30 over 100 consecutive episodes.
+The environment is considered solved, when the average (over 100 episodes) of those scores is at least +0.5.
 
 
 ### Getting Started
@@ -42,7 +44,7 @@ Then, place the file in the p2_continuous-control/ folder in the DRLND GitHub re
 
 ### Instructions
 
-After copying all files to workplace simply run Continuous_Control.ipynb file to train the agent. Solution already provide training results that solved the task.  
+After copying all files to workplace simply run [Tennis.ipynb](https://github.com/gkowalik/Collaboration_and_Competition/blob/master/Tennis.ipynb) file to train the agent. Solution already provide training results that solved the task.  
 
 Trained agents are stored in checkpoint_actor.pth and checkpoint_critic.pth files.
 
