@@ -1,7 +1,7 @@
 ## Learning Algorithm
 
 As a base i have used Deep Deterministic Policy Gradient (DDPG) from the course: https://github.com/udacity/deep-reinforcement-learning/tree/master/ddpg-pendulum  
-Particulary, i have used my working solution for [Project 2 - Continous Control](https://github.com/gkowalik/ContinousControl) and there will be many similarities.
+Particulary, i have re-used my working solution for [Project 2 - Continous Control](https://github.com/gkowalik/ContinousControl) reworked for multi agent purposes and there will be many similarities.
   
 As this task uses two agents (or we can use one agent playing both sides) some modifications were needed. I have explored both options - to use one agent playing both sides or two independent agents. Two agent solution had slithly better results for me.  
 
