@@ -46,5 +46,5 @@ Then, place the file in the p2_continuous-control/ folder in the DRLND GitHub re
 
 After copying all files to workplace simply run [Tennis.ipynb](https://github.com/gkowalik/Collaboration_and_Competition/blob/master/Tennis.ipynb) file to train the agent. Solution already provide training results that solved the task.  
 
-Trained agents are stored in checkpoint_actor.pth and checkpoint_critic.pth files.
+Trained agents are stored in checkpoint_actor1.pth, checkpoint_actor2.pth, checkpoint_critic1.pth  and checkpoint_critic2.pth files.
 
