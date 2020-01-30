@@ -7,10 +7,10 @@ As this task uses two agents (or we can use one agent playing both sides) some m
 
 Other changes to source DDPG (same as in project 2):  
 
-1. I have added epsilon parameter to reduce noise by some multipler (0.997) each episode.  I have also reduced initial sigma to sigma=0.18 
+1. I have added epsilon parameter to reduce noise by some multipler (0.9997) each episode.  I have also increased initial sigma to sigma=0.3 as i observed that higher noise is needed to explore 
 2. Instead of training every episode i have parametrized how often and how many times training happen. 
 3. Number of units in neural networks for agents and critics: fc1_units=400, fc2_units=300
-4.  I have tuned hyperaparemeters, most significant changes are increase on batch size and reducing gamma 
+4.  I have tuned hyperaparemeters, mostly reducing batch size and increasing tau:
 
 Final parameters, along with other hyperparameters:    
   
