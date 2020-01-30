@@ -33,12 +33,12 @@ https://github.com/udacity/deep-reinforcement-learning#dependencies
 #### STEP2: 
 Download:  
 
-Linux: [DOWNLOAD](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P2/Reacher/one_agent/Reacher_Linux.zip)  
-Mac OSX: [DOWNLOAD](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P2/Reacher/one_agent/Reacher.app.zip)  
-Windows (32-bit): [DOWNLOAD](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P2/Reacher/one_agent/Reacher_Windows_x86.zip)  
-Windows (64-bit): [DOWNLOAD](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P2/Reacher/one_agent/Reacher_Windows_x86_64.zip)  
+Linux: [DOWNLOAD](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P3/Tennis/Tennis_Linux.zip)  
+Mac OSX: [DOWNLOAD](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P3/Tennis/Tennis.app.zip)  
+Windows (32-bit): [DOWNLOAD](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P3/Tennis/Tennis_Windows_x86.zip)  
+Windows (64-bit): [DOWNLOAD](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P3/Tennis/Tennis_Windows_x86_64.zip)  
 
-Then, place the file in the p2_continuous-control/ folder in the DRLND GitHub repository, and unzip (or decompress) the file.
+Then, place the file in the p3_collab-compet/ folder in the DRLND GitHub repository, and unzip (or decompress) the file.
 
 <strong><em> NOTE: THIS CODE WAS NOT TESTED OUTSIDE UDACITY WORKSPACE. PARTICULARY, THERE IS A SOLUTION TO KEEP UDACITY WORKSPACE ALIVE (workspace_utils.py) THAT MIGHT NEED TO BE REMOVED</em></strong>
 
