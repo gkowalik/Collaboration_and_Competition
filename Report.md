@@ -28,7 +28,8 @@ TRAIN_N=2      #how many times train agent
 5. I have added workspace "keep alive" solution I have also added  [provided solution](https://github.com/udacity/workspaces-student-support/tree/master/jupyter) to keep workplace active as [suggested in QA](https://knowledge.udacity.com/questions/61260). It requires workspace_utils.py file provided in this repository.
 
 ## Plot of Rewards
-![Plot](https://raw.githubusercontent.com/gkowalik/Collaboration_and_Competition/master/plot.png "Plot")
+![Plot](https://raw.githubusercontent.com/gkowalik/Collaboration_and_Competition/master/plot.png "Plot")  
+
 Plot shows average of max score (average maximum from 2 agents for each episode), therefore averages for each agents can be little lower.
 Environment was solved in 832 episode and ended on 932  episode (having average from 832-932  episode above required 0.5)
 
