@@ -4,7 +4,7 @@
 This is a solution for Project 3 in Udacity course "Deep Reinforced Learning". It is using materials from course, particulary it is based on DDPG solution from course:
 https://github.com/udacity/deep-reinforcement-learning/tree/master/ddpg-pendulum
 
-As a core, i have used my working solution for [Project 2 - Continous Control] (https://github.com/gkowalik/ContinousControl) and there will be many similarities.
+As a core, i have used my working solution for [Project 2 - Continous Control](https://github.com/gkowalik/ContinousControl) and there will be many similarities.
 
 ### The Environment
 
