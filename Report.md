@@ -38,4 +38,4 @@ More details and results per episode are avaliable in [Main project file](https:
 
 ## Ideas for future work
 
-to do
+First thing i would add in futre would be common experience pool and learning from same sampled experiences as suggested in knowledge hub. I could also try 2 agents with common critic solution or some other coordination/teamwork-oriented algorithm. Here for learning purposes i used DDPG reworked by myself for multi-agent purposes to understand differences, but for future work i would switch to MADDPG code avaliable in course or try other algorithms for multi agent solutions. 
